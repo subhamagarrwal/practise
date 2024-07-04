@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/*importing Inter font*/
+body {
+  color:white;
+  background-color: black;
+  font-family: 'Inter', sans-serif;
+}
+
+.text-gradient{
+  background: var(--Gold-2, linear-gradient(94deg, #D7AE7D 23.61%, #9A7A55 96.55%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.text-gradient1{
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.60) 0%, #B08C63 74.5%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.text-gradient2{
+  background: var(--Gold-2, linear-gradient(94deg, #D7AE7D 23.61%, #9A7A55 96.55%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.grey-out-on-hover:hover{
+  filter:grayscale(100%);
+  transition: filter 0.3s ease;
+}
+.tex{
+  font-size:1vw;
+}
