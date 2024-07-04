@@ -1,9 +1,9 @@
-import Collab from "../Components/Landing_Page/Collab";
-import LandingPageHome from "../Components/Landing_Page/LandingPageHome";
-import LearnMoreAboutFreelancing from "../Components/Landing_Page/LearnMoreAboutFreelancing";
-import LoveXlancrPage from "../Components/Landing_Page/LoveXlancr";
-import SpeakSkills from "../Components/Landing_Page/SpeakSkills";
-import HowToGetStarted from "../Components/Landing_Page/HowToGetStarted";
+import Collab from "@web/Components/Landing_Page/Collab";
+import LandingPageHome from "@web/Components/Landing_Page/LandingPageHome";
+import LearnMoreAboutFreelancing from "@web/Components/Landing_Page/LearnMoreAboutFreelancing";
+import LoveXlancrPage from "@web/Components/Landing_Page/LoveXlancr";
+import SpeakSkills from "@web/Components/Landing_Page/SpeakSkills";
+import HowToGetStarted from "@web/Components/Landing_Page/HowToGetStarted";
 export default function Home() {
   return (
     <main className="bg-[#000] min-h-screen text-white">

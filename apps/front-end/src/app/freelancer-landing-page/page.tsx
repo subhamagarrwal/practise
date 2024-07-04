@@ -1,9 +1,9 @@
-import Collab2 from "../Components/Landing_Page/Collab2";
-import LandingPageHome2 from "../Components/Landing_Page/LandingPageHome2";
-import LearnMoreAboutFreelancing from "../Components/Landing_Page/LearnMoreAboutFreelancing";
-import HowToGetStarted from "../Components/Landing_Page/HowToGetStarted";
-import LoveXlancrPage from "../Components/Landing_Page/LoveXlancr";
-import FreelanceWithXlancr from "../Components/Landing_Page/FreelanceWithXlancr";
+import Collab2 from "@web/Components/Landing_Page/Collab2";
+import LandingPageHome2 from "@web/Components/Landing_Page/LandingPageHome2";
+import LearnMoreAboutFreelancing from "@web/Components/Landing_Page/LearnMoreAboutFreelancing";
+import HowToGetStarted from "@web/Components/Landing_Page/HowToGetStarted";
+import LoveXlancrPage from "@web/Components/Landing_Page/LoveXlancr";
+import FreelanceWithXlancr from "@web/Components/Landing_Page/FreelanceWithXlancr";
 
 export default function Home() {
   return (
